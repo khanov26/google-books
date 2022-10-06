@@ -1,0 +1,25 @@
+.alert {
+  padding: 1rem;
+  border: 1px solid var(--borderColor);
+  border-radius: 0.2rem;
+  color: var(--color);
+  background-color: var(--backgoundColor);
+
+  &--error {
+    --borderColor: #f5c2c7;
+    --color: #842029;
+    --backgoundColor: #f8d7da;
+  }
+
+  &--warning {
+    --borderColor: #ffecb5;
+    --color: #664d03;
+    --backgoundColor: #fff3cd;
+  }
+
+  &--success {
+    --borderColor: #badbcc;
+    --color: #0f5132;
+    --backgoundColor: #d1e7dd;
+  }
+}

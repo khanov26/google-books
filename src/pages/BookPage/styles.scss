@@ -1,0 +1,50 @@
+.bookPage {
+}
+.backLink {
+  display: block;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.bookInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+		
+    // .bookInfo__text
+
+		&__text {
+      @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 1rem;
+      }
+      
+		}
+
+		// .bookInfo__label
+
+		&__label {
+      font-weight: 500;
+      @media screen and (max-width: 767px) {
+        margin-bottom: 0.5rem;
+      }
+		}
+
+		// .bookInfo__value
+
+		&__value {
+      @media screen and (max-width: 767px) {
+        margin-bottom: 1rem;
+      }
+		}
+
+		// .bookInfo__cover
+
+		&__cover {
+		}
+
+		// .bookInfo__coverImage
+
+		&__coverImage {
+		}
+}
